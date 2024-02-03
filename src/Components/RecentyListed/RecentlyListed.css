@@ -1,0 +1,15 @@
+.recent-listed {
+  padding: 60px;
+}
+
+.recent-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+@media (max-width: 500px) {
+  .recent-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

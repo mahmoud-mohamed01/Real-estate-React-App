@@ -1,0 +1,15 @@
+.price {
+  padding: 40px;
+}
+
+.price-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 500px) {
+  .price-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
