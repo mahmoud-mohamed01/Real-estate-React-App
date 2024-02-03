@@ -1,0 +1,20 @@
+.about {
+  background-color: #f7f9fc;
+  padding: 20px;
+}
+.about .flex {
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+}
+
+.about .flex img {
+  width: 30%;
+}
+
+@media (max-width: 500px) {
+  .about .flex img {
+    width: 70%;
+  }
+}

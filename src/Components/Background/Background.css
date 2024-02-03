@@ -1,0 +1,16 @@
+.background {
+  margin: auto;
+  text-align: center;
+}
+
+.background img {
+  height: 40vh;
+  object-fit: cover;
+  z-index: -2;
+}
+
+@media (max-width: 500px) {
+  .background img {
+    width: 90%;
+  }
+}

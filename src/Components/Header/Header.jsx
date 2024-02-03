@@ -14,19 +14,19 @@ function Header() {
         <nav>
           <ul className={showNav ? "mobile-nav" : "flex"}>
             <li>
-              <Link>home</Link>
+              <Link to={"/"}>home</Link>
             </li>
             <li>
-              <Link>About</Link>
+              <Link to={"/about"}>About</Link>
             </li>
             <li>
-              <Link>services</Link>
+              <Link to={"/services"}>services</Link>
             </li>
             <li>
-              <Link>blog</Link>
+              <Link to={"/places"}>places</Link>
             </li>
             <li>
-              <Link>pricing</Link>
+              <Link to={"/prices"}>pricing</Link>
             </li>
             <li>
               <Link>contact</Link>
@@ -36,7 +36,7 @@ function Header() {
 
         <div className="flex list">
           <h3>
-            <span>1</span> My List
+            <span>0</span> My List
           </h3>
           <button>sign in</button>
         </div>

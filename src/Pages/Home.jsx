@@ -20,8 +20,6 @@ function Home() {
       <Explore></Explore>
       <FeaturedAgents></FeaturedAgents>
       <Price></Price>
-      <Contact></Contact>
-      <Footer></Footer>
     </div>
   );
 }
