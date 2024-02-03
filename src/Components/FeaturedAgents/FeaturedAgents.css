@@ -55,4 +55,7 @@
   .agent-grid {
     grid-template-columns: repeat(1, 1fr);
   }
+  .featured-agents {
+  padding: 20px;
+}
 }
